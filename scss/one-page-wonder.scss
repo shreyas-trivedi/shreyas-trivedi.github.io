@@ -7,3 +7,49 @@
 @import "navbar.scss";
 @import "masthead.scss";
 @import "bootstrap-overrides.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Indie+Flower&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-m {
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.mt-511 {
+  margin-top: 1rem !important;
+}
+
+.btn-zomato {
+  background-color: $zomato-color;
+  border-color: $zomato-color;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($zomato-color, 10%) !important;
+    border-color: darken($zomato-color, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out($zomato-color, 0.5);
+  }
+}
+
+.btn-swiggy {
+  background-color: $swiggy-color;
+  border-color: $swiggy-color;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: darken($swiggy-color, 10%) !important;
+    border-color: darken($swiggy-color, 10%) !important;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.2rem fade-out($swiggy-color, 0.5);
+  }
+}

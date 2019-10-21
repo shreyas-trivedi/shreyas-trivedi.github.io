@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Indie+Flower&display=swap");
 body {
   font-family: 'Lato';
 }
@@ -57,9 +58,9 @@ h6 {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(1rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #f7c800 0%, #ff9a5c 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -72,18 +73,18 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  background: linear-gradient(0deg, #ff9a5c 0%, #f7c800 100%);
 }
 
 header.masthead .bg-circle-1 {
@@ -116,45 +117,89 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
+    padding-top: calc(4rem + 55px);
     padding-bottom: 10rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
+    font-size: 8rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
 .bg-primary {
-  background-color: #ee0979 !important;
+  background-color: #ff9a5c !important;
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #ff9a5c;
+  border-color: #ff9a5c;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #ff7a29 !important;
+  border-color: #ff7a29 !important;
 }
 
 .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 154, 92, 0.5);
 }
 
 .btn-secondary {
-  background-color: #ff6a00;
-  border-color: #ff6a00;
+  background-color: #f7c800;
+  border-color: #f7c800;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #cc5500 !important;
-  border-color: #cc5500 !important;
+  background-color: #c49f00 !important;
+  border-color: #c49f00 !important;
 }
 
 .btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(247, 200, 0, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-m {
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.mt-511 {
+  margin-top: 1rem !important;
+}
+
+.btn-zomato {
+  background-color: #cb202d;
+  border-color: #cb202d;
+}
+
+.btn-zomato:active, .btn-zomato:focus, .btn-zomato:hover {
+  background-color: #9f1923 !important;
+  border-color: #9f1923 !important;
+}
+
+.btn-zomato:focus {
+  box-shadow: 0 0 0 0.2rem rgba(203, 32, 45, 0.5);
+}
+
+.btn-swiggy {
+  background-color: #fc8019;
+  border-color: #fc8019;
+}
+
+.btn-swiggy:active, .btn-swiggy:focus, .btn-swiggy:hover {
+  background-color: #df6703 !important;
+  border-color: #df6703 !important;
+}
+
+.btn-swiggy:focus {
+  box-shadow: 0 0 0 0.2rem rgba(252, 128, 25, 0.5);
 }

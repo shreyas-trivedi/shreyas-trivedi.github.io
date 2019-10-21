@@ -11,7 +11,7 @@
   <title>One Page Wonder - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -25,7 +25,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+<!--   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">Start Bootstrap</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,14 +42,17 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
-        <h1 class="masthead-heading mb-0">One Page Wonder</h1>
-        <h2 class="masthead-subheading mb-0">Will Rock Your Socks Off</h2>
-        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+        <div class="row align-items-center">
+          <img class="img-fluid" src="img/y2.png" alt="" style="margin: auto;">
+        </div>
+        <h1 class="masthead-heading mb-0" style="font-family: 'Indie Flower', cursive; color: black;">YOGI's</h1>
+        <h2 class="masthead-subheading mb-0" style="font-family: 'Bree Serif', serif; color: black; letter-spacing: 0.12em;">Mindful Eating</h2>
+        <a href="#zomato-swiggy-links" class="btn btn-primary btn-xl rounded-pill mt-5">Get Healthy</a>
       </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -59,17 +62,21 @@
   </header>
 
   <section>
-    <div class="container">
+    <div class="container" id="zomato-swiggy-links">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/01.jpg" alt="">
+            <img class="img-fluid rounded-circle" src="img/cut_fruits.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h2 class="display-4">For those about to rock...</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <h2 class="display-4">Fruits by Yogis</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p> -->
+            <p>Order a fresh dose of cut fruits to snack on!</p>
+            <a href="https://www.zomato.com/ncr/fruits-by-yogis-dlf-phase-4-gurgaon" target="_blank" class="btn btn-primary btn-m rounded-pill mt-511 mt-5 btn-zomato">Order via Zomato</a>
+            <br>
+            <a href="https://www.swiggy.com/restaurants/fruits-by-yogis-pragati-vihar-dlf-phase-4-gurgaon-212605" target="_blank" class="btn btn-primary btn-m rounded-pill mt-511 mt-5 btn-swiggy">Order via Swiggy</a>
           </div>
         </div>
       </div>
@@ -81,13 +88,17 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/02.jpg" alt="">
+            <img class="img-fluid rounded-circle" src="img/juices.jpeg" alt="">
           </div>
         </div>
         <div class="col-lg-6">
           <div class="p-5">
-            <h2 class="display-4">We salute you!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <h2 class="display-4">Juices by Yogis</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p> -->
+            <p>Order some fresh juices to quench that thirst!</p>
+            <a href="https://www.zomato.com/ncr/juices-by-yogis-dlf-phase-4-gurgaon" target="_blank" class="btn btn-primary btn-m rounded-pill mt-511 mt-5 btn-zomato">Order via Zomato</a>
+            <br>
+            <a href="https://www.swiggy.com/restaurants/juices-by-yogis-pragati-vihar-dlf-phase-4-gurgaon-212281" target="_blank" class="btn btn-primary btn-m rounded-pill mt-511 mt-5 btn-swiggy">Order via Swiggy</a>
           </div>
         </div>
       </div>
@@ -99,13 +110,15 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="img/03.jpg" alt="">
+            <img class="img-fluid rounded-circle" src="img/uncut_fruits.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
-            <h2 class="display-4">Let there be rock!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+            <h2 class="display-4">Whole Fruits at Cost</h2>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p> -->
+            <p>Order Whole fruits at the lowest rates guaranteed!</p>
+            <a href="https://www.google.com" target="_blank" class="btn btn-primary btn-m rounded-pill mt-511 mt-5 btn-swiggy">Order via Swiggy Store</a>
           </div>
         </div>
       </div>
@@ -115,14 +128,14 @@
   <!-- Footer -->
   <footer class="py-5 bg-black">
     <div class="container">
-      <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white small">Contact Us - 9988776655</p>
     </div>
     <!-- /.container -->
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
