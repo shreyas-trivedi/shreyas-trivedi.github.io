@@ -53,3 +53,7 @@ html {
     box-shadow: 0 0 0 0.2rem fade-out($swiggy-color, 0.5);
   }
 }
+
+.filter-white{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(241deg) brightness(102%) contrast(103%);
+}
