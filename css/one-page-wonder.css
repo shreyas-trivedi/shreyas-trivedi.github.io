@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - One Page Wonder v5.0.7 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
@@ -202,4 +202,9 @@ html {
 
 .btn-swiggy:focus {
   box-shadow: 0 0 0 0.2rem rgba(252, 128, 25, 0.5);
+}
+
+.filter-white {
+  -webkit-filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(241deg) brightness(102%) contrast(103%);
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(241deg) brightness(102%) contrast(103%);
 }
